@@ -1,0 +1,29 @@
+.container {
+  margin: auto;
+  min-width: none;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.author-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 300px;
+}
+
+.author-card img {
+  width: 100%;
+}
+
+.author-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.author-card-container {
+  padding: 2px 16px;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,90 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-container {
+  padding: 2px 16px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.design {
+  color: #00c000;
+  font-weight: bold;
+}
+
+.world {
+  color: #1e90ff;
+  font-weight: bold;
+}
+
+.date {
+  color: #d3d3d3;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+figure {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+figure img {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+figcaption {
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #54b3d6;
+  color: #54b3d6;
+  background-color: white;
+}
+
+.btn:hover {
+  border: 1px solid white;
+  color: white;
+  background-color: #54b3d6;
+}
+
+p a {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+p a:hover {
+  box-shadow: inset 120px 0 0 0 #54b3d6;
+  color: white;
+}
